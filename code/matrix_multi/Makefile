@@ -5,6 +5,8 @@ CC := gcc
 OMP_OPT := -fopenmp
 OUTPUT_OPT := -o
 
+WARN_OPT := -Wall
+
 SOURCE = $(wildcard *.c)
 EXE = $(SOURCE:.c=.out)
 
